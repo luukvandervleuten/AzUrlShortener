@@ -8,11 +8,13 @@
       "appBuildCommand": "dotnet publish -c Release -o bin",
       "apiBuildCommand": "dotnet publish -c Release",
       "run": "dotnet watch run"
-      "networking": {
-        "allowedIpRanges": [
-          "194.171.164.1/32"
-        ]
-      }
     }
+  }
+}
+{
+  "networking": {
+    "allowedIpRanges": [
+      "194.171.164.1/32"
+    ]
   }
 }
