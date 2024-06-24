@@ -10,7 +10,7 @@
       "run": "dotnet watch run"
       "networking": {
         "allowedIpRanges": [
-          "194.171.164.1/22"
+          "194.171.164.1/32"
         ]
       }
     }
